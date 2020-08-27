@@ -1,0 +1,117 @@
+<html>
+  <head>
+    <link
+      href="https://fonts.googleapis.com/css?family=Slabo+27px"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body style="background: #ccc; margin: 0;">
+    <main style="margin: 0 auto; padding-top: 20px; width: 80%;">
+      <div
+        style="
+          background: #fff;
+          border: solid #777 2px;
+          margin-bottom: 15px;
+          padding: 15px;
+        "
+      >
+        <h1 style="text-align: center;">Hubungi Kami</h1>
+
+        <ul style="list-style-type: none; padding: 0;">
+          <li><b>Kantor:</b> di jalan belum jadi</li>
+          <li><b>Nomor Telepon:</b> 08XX-XXXX-XXXX</li>
+          <li><b>Email:</b> email@contoh.com</li>
+        </ul>
+
+        <h1 style="text-align: center;">Kirimkan Pesan</h1>
+
+        <form action="" style="display: table; width: 100%;">
+          <div style="display: table-row;">
+            <label for="nama" style="margin-bottom: 20px; display: table-cell;"
+              ><b>Nama</b></label
+            >
+
+            <input
+              type="text"
+              name="nama"
+              id="nama"
+              required
+              style="display: table-cell; margin-bottom: 20px;"
+            />
+          </div>
+
+          <div style="display: table-row;">
+            <label for="email" style="display: table-cell; margin-bottom: 20px;"
+              ><b>Email</b></label
+            >
+
+            <input
+              type="email"
+              name="email"
+              id="email"
+              required
+              style="display: table-cell; margin-bottom: 20px;"
+            />
+          </div>
+
+          <div class="contact-form" style="display: table-row;">
+            <p style="display: table-cell; margin-bottom: 20px;">
+              <b>Jenis kelamin</b>
+            </p>
+
+            <div style="display: table-cell;">
+              <div>
+                <input
+                  type="radio"
+                  id="laki-laki"
+                  name="gender"
+                  value="laki-laki"
+                  checked
+                />
+
+                <label for="laki-laki">Laki-laki</label>
+              </div>
+
+              <div style="margin-bottom: 20px;">
+                <input
+                  type="radio"
+                  id="perempuan"
+                  name="drone"
+                  value="perempuan"
+                />
+
+                <label for="perempuan">Perempuan</label>
+              </div>
+            </div>
+          </div>
+
+          <div style="display: table-row;">
+            <label for="pesan" style="display: table-cell;"
+              ><b>Pesan anda</b></label
+            >
+
+            <textarea
+              id="pesan"
+              name="pesan"
+              rows="5"
+              cols="33"
+              placeholder=""
+              style="display: table-cell;"
+            ></textarea>
+          </div>
+
+          <div style="display: table-row;">
+            <input
+              type="submit"
+              value="Kirim"
+              style="display: table-cell; margin-top: 20px;"
+            />
+          </div>
+        </form>
+      </div>
+
+      <a href="index.html" style="text-decoration: none;">Kembali ke index</a>
+    </main>
+  </body>
+</html>

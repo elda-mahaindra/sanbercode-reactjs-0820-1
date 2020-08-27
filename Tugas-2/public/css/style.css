@@ -1,0 +1,73 @@
+body {
+  background-image: url(../img/pattern.jpg);
+  margin: 0;
+}
+
+header,
+section,
+footer {
+  background: #fff;
+  margin: 0 auto;
+  width: 100%;
+}
+
+/* ============================================= header */
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+nav ul {
+  display: flex;
+  justify-content: flex-start;
+  list-style-type: none;
+  padding: 0;
+}
+
+nav a {
+  color: #000;
+  display: block;
+  flex: 1 1 0;
+  padding: 10px;
+  text-decoration: none;
+  text-align: center;
+}
+
+nav a:hover {
+  color: blue;
+}
+
+/* ============================================= section */
+section {
+  width: 67%;
+}
+
+section h1 {
+  padding-top: 0.75em;
+  text-align: center;
+}
+
+#article-list div {
+  margin: 2% 2% 0;
+  min-height: 150px;
+}
+
+#article-list div a {
+  text-decoration: none;
+}
+
+#article-list div p {
+  border-bottom: solid #555 0.1em;
+  padding-bottom: 3%;
+}
+
+/* ============================================= footer */
+footer {
+  align-items: center;
+  background: #000;
+  color: #fff;
+  display: flex;
+  font-size: 0.9em;
+  justify-content: center;
+  min-height: 50px;
+}
